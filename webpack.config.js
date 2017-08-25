@@ -19,11 +19,11 @@ module.exports = {
 	},
 
 	entry: {
-        "leaderboard" : [
+        "reduxboilerplate" : [
             'babel-polyfill',
             'webpack/hot/dev-server',
             'webpack-dev-server/client?http://localhost:' + configServe.port,
-            path.resolve(__dirname, './src/Index.jsx')
+            path.resolve(__dirname, './src/index.jsx')
         ]
     },
 	output: {

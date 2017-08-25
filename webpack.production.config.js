@@ -12,7 +12,7 @@ module.exports = {
    ],
    output: {
       path: __dirname,
-      filename: '../../dist/assets/js/leaderboard.js',
+      filename: '../../dist/assets/js/reduxboilerplate.js',
    },
    module: {
       loaders: [
