@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from "react-dom";
-import MainContainer from "./component/MainContainer";
+import View from './View';
 
 const app = document.getElementById('app');
 
-render(<MainContainer/>, app);
+render(<View/>, app);
