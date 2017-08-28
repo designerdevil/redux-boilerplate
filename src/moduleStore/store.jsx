@@ -4,4 +4,6 @@ import myReducer from '../reducer/reducer';
 
 const moduleStore = createStore(myReducer, applyMiddleware(thunk));
 
+console.log(moduleStore.getState());
+
 export default moduleStore;

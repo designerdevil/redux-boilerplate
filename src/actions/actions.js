@@ -8,7 +8,7 @@ const reducerActions = {
     }
 };
 
-let init = (matchPlayData) => {
+let init = (initData) => {
     return {
         type: EVT.INIT,
         payload: {
