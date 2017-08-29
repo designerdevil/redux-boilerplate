@@ -10,10 +10,10 @@ class MainContainer extends Component {
 	onClickVal(_this, val) {
 		let dispatch = this.props.dispatch;
         dispatch(ACTIONS.init(
-        {
-        	dataObject: "newGaurav Object",
-        	dataObjectNew: "newPriyanka Object"
-        }
+            {
+            	dataObject: "newGaurav Object",
+            	dataObjectNew: "newPriyanka Object"
+            }
         ));
 	}
     render(){

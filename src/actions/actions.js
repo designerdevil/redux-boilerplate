@@ -12,8 +12,8 @@ let init = (initData) => {
     return {
         type: EVT.INIT,
         payload: {
-            dataObject: "newGaurav Object2",
-            dataObjectNew: "newPriyanka Object2"
+            dataObject: "new Object2",
+            dataObjectNew: "new Object2"
         }
     }
 };
