@@ -21,5 +21,3 @@ To deploy
 ```sh
 $ npm run deploy
 ```
-
-### Whats inside the package?
