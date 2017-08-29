@@ -11,8 +11,8 @@ module.exports = {
       path.resolve(__dirname, 'src/Index.jsx'),
    ],
    output: {
-      path: __dirname,
-      filename: '../../dist/assets/js/reduxboilerplate.js',
+      path: __dirname + '/dist',
+      filename: 'reduxboilerplate.js',
    },
    module: {
       loaders: [

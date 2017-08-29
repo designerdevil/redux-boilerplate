@@ -21,5 +21,6 @@ db.json
 # dist folder
 dist
 
+README.html
 
 src/react/package-lock.json

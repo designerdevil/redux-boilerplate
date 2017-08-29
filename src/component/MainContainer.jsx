@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
+import ModuleButton from '../component/buttonComponent';
 import ACTIONS from '../actions/actions';
 
 class MainContainer extends Component {
@@ -18,7 +19,7 @@ class MainContainer extends Component {
 	}
     render(){
         return (
-            <button onClick={this.onClickVal}>Click Me</button>
+            <ModuleButton onClickVal={this.onClickVal} />
         );
     }
 }
